@@ -1,10 +1,12 @@
 # game of life sim using python 
 
+# import neccessary modules
 from random import choice
 from turtle import *
 import turtle
 from freegames import square
 
+# make a dict to store the cells
 cells = {}
 
 
@@ -20,7 +22,7 @@ def initialize():
             cells[x,y] = choice([True, False])
 
 
-# 2 step function
+# 2 step (interval) function
 def step():
     # game creation
     neighbors = {}
@@ -52,7 +54,7 @@ def draw():
     update()
     ontimer(draw, 100)
 
-#  Creating turtle window
+#  Creating turtle window to display the game
 turtle.title("Game of life")
 setup(420, 420, 370, 0)
 hideturtle()
