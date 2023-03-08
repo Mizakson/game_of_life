@@ -1,4 +1,4 @@
-Game of Life Simulation
+# Game of Life Simulation
 
 Here is a rendition of the popular game theory simulation "Game of Life"
 first created by John Conway
