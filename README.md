@@ -8,6 +8,8 @@ setup:
 2. activate virtual environment
 3. type in 'pip install freegames'
 4. change back to root dir
+
+To run the game...
 5. type "python game.py"
 
 requirements:
